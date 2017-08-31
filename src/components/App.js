@@ -6,12 +6,12 @@ class App extends Component {
   render() {
     return (
       <div className="container-fluid">
-        <div className="App-header">
+        <div>
 
           <h1>React Portfolio App</h1>
 
         </div>
-          
+
 
       </div>
     );
