@@ -1,3 +1,48 @@
+
+*{
+  font-family: 'Manuale', serif;
+}
+
+body{
+
+background-color: #404040;
+color: white;
+
+}
+
+
+
+#green{
+object-fit: cover;
+max-width: 100%;
+margin-bottom: -700px;
+
+
+}
+
+nav{
+  z-index: 100;
+
+}
+
+ul{
+  margin-top: -50px;
+  display: flex;
+  position: absolute;
+  justify-content: space-around;
+  width: 100%;
+  font-size: 16px;
+  list-style: none;
+  padding: 0;
+}
+
+a {
+
+  color: white;
+}
+
+
+
 .App {
   text-align: center;
 }
@@ -21,4 +66,36 @@
 @keyframes App-logo-spin {
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
+}
+
+#enoc {
+    position: absolute;
+    float: left;
+    border-radius: 50%;
+    width: 250px;
+    margin-left: 10px;
+    height: 250px;
+    margin-bottom: 10px;
+    border: 2px solid #404d33;
+    box-sizing: border-box;
+    cursor: pointer
+
+}
+
+.container{
+background-color: white;
+}
+
+p{
+      width:80%;
+      border-radius: 10px;
+      min-width:200px;
+      display:inline-block;
+      padding-left: 265px;
+      box-sizing:border-box;
+      color: white;
+      margin-top: 80px;
+      font-size: 25px;
+      background: #405629;
+
 }
