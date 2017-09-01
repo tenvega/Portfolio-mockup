@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import enoc from '../images/enoc.jpg';
 // import Arturia from '../images/Arturia.jpg';
 
-class About extends Component {
+export default class About extends Component {
 
   render() {
     return (
@@ -22,5 +22,3 @@ class About extends Component {
     );
   }
 }
-
-export default About;

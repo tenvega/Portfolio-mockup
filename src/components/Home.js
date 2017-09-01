@@ -2,7 +2,7 @@ import React from 'react';
 
 
 
-const Home = (props) => {
+ const Home = (props) => {
 
     return (
 
@@ -13,6 +13,5 @@ const Home = (props) => {
     </div>
     );
   }
-
 
 export default Home;
