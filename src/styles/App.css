@@ -18,6 +18,21 @@ padding-left: 10px;
 
 }
 
+.skills{
+
+display: flex;
+flex-flow: column;
+}
+
+
+
+
+
+label{
+  display: block;
+  padding-left: 70px;
+}
+
 
 
 input[type=text], select {
@@ -44,7 +59,7 @@ button{
   border-radius: 5px;
   color: white;
   padding: 5px 20px 5px 20px;
-  
+
 }
 
 

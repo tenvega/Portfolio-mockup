@@ -8,7 +8,9 @@ import React from 'react';
 
     <div className="container-fluid">
 
-      <h1>Home</h1>
+    <h1>Welcome</h1>
+
+      
 
     </div>
     );
