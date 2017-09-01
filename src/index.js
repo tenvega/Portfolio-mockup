@@ -24,7 +24,7 @@ ReactDOM.render(
         <Route path="/portfolio" component={Portfolio}/>
         <Route path="/gallery" component={Gallery}/>
         <Route path="/contact" component={Contact}/>
-        <Route path="/" component={App}/>
+        <Route exact="/" component={App}/>
       </Switch>
     </BaseLayout>
   </BrowserRouter>
