@@ -22,7 +22,7 @@ export default class Contact extends Component {
           <input  name="songArtist" type="text" row = "1"  />
           </div>
 
-          <button className="btn btn-primary" type="submit" id="formSubmitButton">Submit</button>
+          <button className="btn btn-primary" type="submit" >Submit</button>
 
         </form>
 
